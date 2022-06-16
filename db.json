@@ -1,0 +1,72 @@
+{
+    "dogs": [
+        {
+            "Name": "Max",
+            "Color": "Black",
+            "Weight": {
+                "Numeric Value": 32,
+                "Unit": "kg"
+            },
+            "Number Of Teeth": 42
+        },
+        {
+            "Name": "Milo",
+            "Color": "White",
+            "Weight": {
+                "Numeric Value": 28,
+                "Unit": "kg"
+            },
+            "Number Of Teeth": 41
+        },
+        {
+            "Name": "Buddy",
+            "Color": "Brown",
+            "Weight": {
+                "Numeric Value": 40,
+                "Unit": "kg"
+            },
+            "Number Of Teeth": 40
+        }
+    ],
+    "giraffes": [
+        {
+            "Name": "Pixie",
+            "Color": "Brown",
+            "Weight": {
+                "Numeric Value": 1267,
+                "Unit": "kg"
+            },
+            "Neck Length": {
+                "Numeric Value": 1.67,
+                "Unit": "m"
+            },
+            "Number Of Spots": 98
+        },
+        {
+            "Name": "Bubbles",
+            "Color": "Brown",
+            "Weight": {
+                "Numeric Value": 1854,
+                "Unit": "kg"
+            },
+            "Neck Length": {
+                "Numeric Value": 1.8,
+                "Unit": "m"
+            },
+            "Number Of Spots": 129
+        },
+        {
+            "Name": "Cupcake",
+            "Color": "Brown",
+            "Weight": {
+                "Numeric Value": 1328,
+                "Unit": "kg"
+            },
+            "Neck Length": {
+                "Numeric Value": 1.6,
+                "Unit": "m"
+            },
+            "Number Of Spots": 78
+        }
+    ]
+}
