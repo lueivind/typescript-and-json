@@ -1,0 +1,65 @@
+<div>
+    <h2>My Animals Kept Seperate</h2>
+    <div>
+        <div *ngFor="let animal of animals">
+            <div style="display: flex;">
+                <div class="col">
+                    <div class="header">Name</div>
+                    <div>{{animal.name}}</div>
+                </div>
+                <div class="col">
+                    <div class="header">Color</div>
+                    <div>{{animal.color}}</div>
+                </div>
+                <div class="col">
+                    <div class="header">Weight</div>
+                    <div>{{animal.weight.numericValue}} {{animal.weight.unit}}</div>
+                </div>
+                <div class="col">
+                    <div class="header">Neck Length</div>
+                    <!-- <div>{{animal.neckLength.numericValue}} {{animal.neckLength.unit}}</div> -->
+                </div>
+                <div class="col">
+                    <div class="header">Number of Spots</div>
+                    <div>{{animal.numberOfSpots}}</div>
+                </div>
+                <div class="col">
+                    <div class="header">Number of Teeth</div>
+                    <div>{{animal.numberOfTeeth}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2>My Animals As Animal Presenters</h2>
+    <div>
+        <div *ngFor="let animal of animalPresenters">
+            <div style="display: flex;">
+                <div class="col">
+                    <div class="header">Name</div>
+                    <div>{{animal.name}}</div>
+                </div>
+                <div class="col">
+                    <div class="header">Color</div>
+                    <div>{{animal.color}}</div>
+                </div>
+                <div class="col">
+                    <div class="header">Weight</div>
+                    <div>{{animal.weight.numericValue}} {{animal.weight.unit}}</div>
+                </div>
+                <div class="col">
+                    <div class="header">Neck Length</div>
+                    <div>{{animal.neckLength.numericValue}} {{animal.neckLength.unit}}</div>
+                </div>
+                <div class="col">
+                    <div class="header">Number of Spots</div>
+                    <div>{{animal.numberOfSpots}}</div>
+                </div>
+                <div class="col">
+                    <div class="header">Number of Teeth</div>
+                    <div>{{animal.numberOfTeeth}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
